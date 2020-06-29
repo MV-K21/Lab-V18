@@ -1,11 +1,16 @@
-
 #include <stdio.h>
-
-int main()
+#include <math.h>
+    int main()
 {
-    int a = 5,b = 2,c = 3,y;
+    float a,b,c,y;
+    printf("a=");
+    scanf("%g",&a);
+    printf("b=");
+    scanf("%g",&b);
+    printf("c=");
+    scanf("%g",&c);
     y = (3*a-4*b+5*c)/(a*b+2*b*c+3*a*c)-(a*b-c)/(4);
-    printf("%d\n",y);
-
+    printf("y=%g", y); 
     return 0;
+
 }
