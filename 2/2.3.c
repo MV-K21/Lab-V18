@@ -1,16 +1,14 @@
-
 #include <stdio.h>
-
-int main()
+#include <math.h>
+    int main()
 {
-    int x,y,f;
+    float x,y,f;
     printf("x=");
-    scanf("%d",&x);
+    scanf("%g",&x);
     printf("y=");
-    scanf("%d",&y);
+    scanf("%g",&y);
     f = (x+y)/(x*x+x*y+y*y)+(x)/(1+y*y)+(y)/(1+x*x);
-    printf("f=%d",f);
+    printf("f=%g",f);
    
     return 0;
 }
-
